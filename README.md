@@ -64,15 +64,12 @@ app/src/main/java/com/activity/ayobelajarjaringan/
 5. **Jalankan aplikasi**
    - Pilih emulator atau perangkat fisik, lalu klik `Run ▶`.
 
-> ⚠️ **Keamanan API Key**: repository ini menyertakan variabel `apiKey` kosong sebagai placeholder di `ChatbotActivity.kt`. Jangan pernah meng-commit API key asli ke repository publik — gunakan `local.properties` yang di-*gitignore* atau `BuildConfig` field.
+
 
 ## 🤝 Kontribusi
 
 Kontribusi berupa laporan bug, saran fitur, maupun pull request sangat terbuka. Silakan buat *issue* terlebih dahulu untuk mendiskusikan perubahan besar.
 
-## 📄 Lisensi
-
-Proyek ini belum menetapkan lisensi. Tambahkan berkas `LICENSE` sesuai kebutuhan (misalnya MIT) jika ingin membuka proyek secara resmi.
 
 ## 👤 Pengembang
 
@@ -152,9 +149,6 @@ app/src/main/java/com/activity/ayobelajarjaringan/
 
 Bug reports, feature suggestions, and pull requests are welcome. Please open an issue first to discuss any major changes.
 
-## 📄 License
-
-This project has not yet defined a license. Add a `LICENSE` file as needed (e.g. MIT) if you want to open-source the project officially.
 
 ## 👤 Developer
 
