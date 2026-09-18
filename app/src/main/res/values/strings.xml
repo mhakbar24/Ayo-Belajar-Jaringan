@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Troubleshooting Komputer SMK</string>
+    <string name="title_studi_kasus">Studi Kasus</string>
+    <string name="title_quiz">Quiz</string>
+    <string name="title_materi">Materi</string>
+    <string name="title_chatbot">Guru AI</string>
+    <string name="title_profil">Profil Pengembang</string>
+    <string name="title_info">Informasi Aplikasi</string>
+
+    <string name="label_find_courses">Cari Solusi Kerusakan</string>
+    <string name="promo_title">CP &amp; TP Pembelajaran</string>
+    <string name="promo_subtitle">Capaian dan Tujuan Pembelajaran \nKurikulum Merdeka Troubleshooting.</string>
+    <string name="btn_watch_now">Lihat Detail</string>
+    <string name="label_topics">Menu Pembelajaran</string>
+    <string name="placeholder_content">Pilih topik materi di bawah ini</string>
+    <string name="hint_ask_teacher">Tanya solusi kerusakan ke guru AI...</string>
+    <string name="label_teacher">Guru Troubleshooting</string>
+    <string name="label_student">Siswa SMK</string>
+
+    <!-- Materi Troubleshooting Topics -->
+    <string name="title_materi_1">Troubleshooting Power Supply</string>
+    <string name="desc_materi_1">Mendiagnosa masalah daya, PSU, dan kelistrikan PC secara mendalam.</string>
+
+    <string name="title_materi_2">Troubleshooting Motherboard &amp; CPU</string>
+    <string name="desc_materi_2">Mengatasi masalah POST, overheat, dan BIOS.</string>
+
+    <string name="title_materi_3">Troubleshooting RAM (Memory)</string>
+    <string name="desc_materi_3">Gejala No-Display, Beep Code, dan ketidakstabilan sistem.</string>
+
+    <string name="title_materi_4">Troubleshooting Storage Device</string>
+    <string name="desc_materi_4">Mengatasi Disk Failure, Bad Sector, dan OS Not Found.</string>
+
+    <string name="title_materi_5">Troubleshooting Display &amp; GPU</string>
+    <string name="desc_materi_5">Masalah VGA Card, Artifact, dan Monitor No Signal.</string>
+
+    <string name="title_materi_6">Maintenance &amp; Perawatan</string>
+    <string name="desc_materi_6">Teknik pembersihan dan perawatan rutin komputer.</string>
+
+    <!-- Profil Pengembang -->
+    <string name="dev_name">Lorem Ipsum</string>
+    <string name="dev_nim">0</string>
+    <string name="dev_univ">Universitas Negeri Medan</string>
+    <string name="dev_prodi">Pendidikan Teknologi Informatika dan Komputer</string>
+    <string name="dev_wa">00</string>
+    <string name="label_univ">Universitas</string>
+    <string name="label_prodi">Program Studi</string>
+    <string name="label_wa">WhatsApp</string>
+    <string name="btn_contact">Hubungi Pengembang</string>
+
+    <!-- Info Content -->
+    <string name="info_usage_title">Cara Penggunaan Aplikasi</string>
+    <string name="info_usage_desc">1. Pilih menu Materi untuk mempelajari teori troubleshooting.\n2. Gunakan Guru AI untuk bertanya solusi kerusakan secara spesifik.\n3. Uji kemampuanmu di menu Quiz untuk mendapatkan skor.\n4. Pelajari skenario nyata pada menu Studi Kasus.</string>
+
+    <string name="info_buttons_title">Penjelasan Menu</string>
+    <string name="info_btn_studi_kasus">Studi Kasus: Simulasi permasalahan komputer di dunia nyata.</string>
+    <string name="info_btn_quiz">Quiz: Evaluasi pemahaman materi dengan batas waktu.</string>
+    <string name="info_btn_materi">Materi: Modul lengkap teori troubleshooting komputer.</string>
+    <string name="info_btn_chatbot">Guru AI: Chatbot interaktif berbasis Gemini AI untuk konsultasi perbaikan.</string>
+    <string name="info_btn_profil">Profil: Informasi mengenai pengembang aplikasi ini.</string>
+
+    <string name="info_os_title">Dukungan Sistem Operasi</string>
+    <string name="info_os_desc">Aplikasi ini berjalan pada perangkat Android dengan versi minimal Android 7.0 (Nougat) atau versi yang lebih baru (API Level 24+).</string>
+
+    <string name="info_hw_title">Dukungan Perangkat Keras</string>
+    <string name="info_hw_desc">• Prosesor: Minimal Quad-core 1.5 GHz.\n• RAM: Minimal 2 GB (Disarankan 3 GB+).\n• Penyimpanan: Minimal 100 MB ruang kosong.\n• Layar: Resolusi minimal 720p (HD).\n• Koneksi: Diperlukan internet untuk fitur Guru AI.</string>
+
+    <!-- Studi Kasus Scenarios -->
+    <string name="case_1_title">Kasus 1: Komputer Mati Total</string>
+    <string name="case_1_problem">Seorang pelanggan membawa PC yang tidak menyala sama sekali saat tombol power ditekan. Lampu indikator di motherboard juga mati.</string>
+    <string name="case_1_solution">Langkah Perbaikan:\n1. Cek kabel power ke stop kontak.\n2. Cek saklar PSU di bagian belakang casing.\n3. Test PSU menggunakan jumper (kabel hijau dan hitam).\n4. Pastikan konektor 24-pin dan 4/8-pin terpasang kuat di motherboard.</string>
+
+    <string name="case_2_title">Kasus 2: Monitor No Signal</string>
+    <string name="case_2_problem">Kipas CPU berputar, lampu indikator menyala, tetapi monitor tetap hitam dan menampilkan pesan "No Signal".</string>
+    <string name="case_2_solution">Langkah Perbaikan:\n1. Bersihkan pin RAM dengan penghapus pensil.\n2. Coba pasang RAM di slot yang berbeda.\n3. Jika menggunakan GPU card, pastikan terpasang dengan benar dan kabel monitor dicolok ke GPU, bukan ke motherboard.\n4. Reset BIOS dengan melepas baterai CMOS selama 30 detik.</string>
+
+    <string name="case_3_title">Kasus 3: Blue Screen of Death (BSOD)</string>
+    <string name="case_3_problem">Windows sering mengalami crash dengan layar biru saat sedang digunakan untuk bermain game berat atau multitasking.</string>
+    <string name="case_3_solution">Langkah Perbaikan:\n1. Cek suhu CPU dan GPU menggunakan software monitoring (pastikan tidak overheat).\n2. Update driver kartu grafis ke versi terbaru.\n3. Jalankan perintah `sfc /scannow` di Command Prompt untuk memperbaiki file sistem.\n4. Periksa kesehatan Hardisk/SSD menggunakan CrystalDiskInfo.</string>
+
+    <string name="case_4_title">Kasus 4: Bunyi Beep Berulang</string>
+    <string name="case_4_problem">Saat dinyalakan, komputer mengeluarkan bunyi "Beep" panjang secara berulang-ulang dan tidak ada tampilan di layar.</string>
+    <string name="case_4_solution">Langkah Perbaikan:\n1. Bunyi beep panjang berulang biasanya menandakan masalah pada RAM.\n2. Cabut semua RAM, bersihkan, dan pasang satu per satu untuk mencari modul yang rusak.\n3. Jika beep 1 long 2 short, itu masalah VGA/GPU.\n4. Rujuk ke buku manual motherboard untuk kode beep spesifik.</string>
+    <string name="label_scenario">Skenario Permasalahan:</string>
+</resources>
